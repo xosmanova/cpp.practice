@@ -7,7 +7,7 @@
                 cout<<"Cüt Ədəd:"<<i<<endl;
              }
         }
-        for(int i=1;i<=100<=;i++){
+        for(int i=1;i<=100;i++){
              if(i%2!=0){
                 cout<<"Tək Ədəd:"<<i<<endl;
              }
@@ -52,7 +52,7 @@
        cout<<"IKi eded daxil et:";
        cin>>a>>b;
        cout<<"Cem:"<<a+b<<endl;
-       cout<<"Ferqi:<<a-b<<endl;
+       cout<<"Ferqi:"<<a-b<<endl;
        cout<<"Hasili:"<<a*b<<endl;
        if(b!=0){
            cout<<"Bolme:"<<a/b<<endl;
@@ -70,22 +70,22 @@
         cout<<"Bir eded daxil et:";
         cin>>a;
         if(a>0){
-            cout<<"Musbet:"<<endl;
-        }else if{
-            cout<<"Menfi:"<<endl;
+            cout<<"Musbet."<<endl;
+        }else if(a<0){
+            cout<<"Menfi."<<endl;
         }else{
-            cout<<"0-dır"<<endl;
+            cout<<"0-dır."<<endl;
         }
         return 0;
    }
 
 // Task 6
-   #include<Iostream>
+   #include<iostream>
    using namespace std;
    int main(){
         for(int i=1;i<=100;i++){
              if(i%2!=0){
-                cout<<"Tek Ededler"<<endl;
+                cout<<"Tek Ededler:"<<i<<endl;
              }
         }
         return 0;
@@ -99,12 +99,13 @@
         int i=1;
         while(i<=50){
               cout<<i<<" ";
+              i++;
         }
    }
 
 
 // Task 8
-   #include<iostreeam>
+   #include<iostream>
    using namespace std;
    int main(){  
         int a,b,c;
@@ -122,7 +123,7 @@
 
 
 // Task 9
-   #include<Iostream>
+   #include<iostream>
    using namespace std;
    int main(){
         int cem=0;
